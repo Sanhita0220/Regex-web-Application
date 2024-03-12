@@ -1,0 +1,97 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("alpha 23.jpg"); /* Adjust the path to your image file */
+    
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #f77f00;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgb(250, 249, 249);
+    
+}
+
+h1 {
+    text-align: center;
+    color: #fcf9f9;
+}
+
+form {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 2px;
+}
+
+input[type="text"],
+input[type="email"],
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #fcbf49;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #003049;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #bb3e03;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 3px;
+}
+
+.valid {
+    color: #eae2b7;
+}
+
+.invalid {
+    color: #ae2012;
+}
+
+.btn {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #005f73;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.btn:hover {
+    background-color: #bb3e03;
+}
+
+.valid-result {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #fcbf49;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.valid-result:hover {
+    background-color: #bb3e03;
+}

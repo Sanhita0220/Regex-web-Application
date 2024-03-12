@@ -1,0 +1,36 @@
+<!-- results.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regex Matching Results</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Matched Strings:</h1>
+        <ul>
+            {% for match in matches %}
+                <li>{{ match }}</li>
+            {% endfor %}
+        </ul>
+        
+        <h2>Email Address:</h2>
+        <p>{{ email }}</p>
+        {% if email_valid %}
+            <p class="valid">Email is valid.</p>
+        {% else %}
+            <p class="invalid">Enter Valid Email.</p>
+        {% endif %}
+
+        <h2>Input Text:</h2>
+        <p>{{ test_string }}</p>
+
+        <h2>Number of Results:</h2>
+        <p>{{ matches|length }}</p>
+
+        <a href="/" class="btn">Back</a> 
+    </div>
+</body>
+</html>
